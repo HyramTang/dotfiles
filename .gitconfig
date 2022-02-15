@@ -1,0 +1,18 @@
+# This is Git's per-user configuration file.
+# [user]
+# Please adapt and uncomment the following lines:
+#	name = 
+#	email = hyram@Hyram-PC.localdomain
+[http "https://github.com"]
+	proxy = http://127.0.0.1:2333
+	# proxy = socks5://127.0.0.1:2333
+[https "https://github.com"]
+	proxy = http://127.0.0.1:2333
+	# proxy = socks5://127.0.0.1:2333
+[core]
+	editor = vim
+[user]
+	name = Hyram Tang
+	email = HYRAM.TANG@GMAIL.COM
+[credential]
+	helper = /mnt/d/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager.exe
